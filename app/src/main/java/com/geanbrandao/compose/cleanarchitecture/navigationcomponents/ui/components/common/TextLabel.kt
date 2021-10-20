@@ -4,19 +4,17 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.unit.sp
-import com.geanbrandao.compose.cleanarchitecture.navigationcomponents.ui.characters.content.TextSizeDefault
 import com.geanbrandao.compose.cleanarchitecture.navigationcomponents.ui.characters.content.TextSizeLabel
 
+
 @Composable
-fun TextName(name: String, modifier: Modifier = Modifier) {
+fun TextLabel(label: String, modifier: Modifier) {
     Text(
-        text = name,
-        fontSize = TextSizeDefault,
+        text = label,
         modifier = modifier,
-        fontWeight = FontWeight.Bold,
-        color = MaterialTheme.colors.primary,
+        fontSize = TextSizeLabel,
+        fontWeight = FontWeight.Light,
+        color = MaterialTheme.colors.primaryVariant
     )
 }
