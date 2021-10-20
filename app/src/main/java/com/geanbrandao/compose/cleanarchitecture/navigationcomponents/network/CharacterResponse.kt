@@ -10,7 +10,7 @@ data class CharacterResponse(
     val id: Int,
     val name: String,
     val status: String,
-    val species: String,
+    val species: String? = null,
     val origin: String,
     @SerialName("img_url")
     val imgUrl: String
@@ -20,6 +20,6 @@ fun CharacterResponse.toCharacterModel() = CharacterModel(
     name = name,
     imgUrl = imgUrl,
     origin = origin,
-    species = species,
+    species = species ?: "Unknown",
     status = status,
 )
