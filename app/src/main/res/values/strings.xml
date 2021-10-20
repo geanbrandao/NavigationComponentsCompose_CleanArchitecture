@@ -3,4 +3,7 @@
     <string name="text_default_label_name">Nome</string>
     <string name="text_default_label_specie">Espécie</string>
     <string name="text_default_label_air_date">Data de estreia</string>
+    <string name="text_default_label_bottom_navigation_characters">Personagnes</string>
+    <string name="text_default_label_bottom_navigation_episodes">Episódios</string>
+    <string name="text_default_label_toolbar_title">Detalhes</string>
 </resources>

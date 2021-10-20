@@ -1,4 +1,4 @@
-package com.geanbrandao.compose.cleanarchitecture.navigationcomponents.ui.characters.content
+package com.geanbrandao.compose.cleanarchitecture.navigationcomponents.ui.screen_characters.content
 
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp

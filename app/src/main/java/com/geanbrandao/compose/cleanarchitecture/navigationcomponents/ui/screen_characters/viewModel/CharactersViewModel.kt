@@ -1,4 +1,4 @@
-package com.geanbrandao.compose.cleanarchitecture.navigationcomponents.ui.characters.viewModel
+package com.geanbrandao.compose.cleanarchitecture.navigationcomponents.ui.screen_characters.viewModel
 
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf

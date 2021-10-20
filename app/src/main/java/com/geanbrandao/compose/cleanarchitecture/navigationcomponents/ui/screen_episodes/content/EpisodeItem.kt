@@ -1,4 +1,4 @@
-package com.geanbrandao.compose.cleanarchitecture.navigationcomponents.ui.episodes.content
+package com.geanbrandao.compose.cleanarchitecture.navigationcomponents.ui.screen_episodes.content
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -8,12 +8,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.unit.dp
 import com.geanbrandao.compose.cleanarchitecture.navigationcomponents.R
-import com.geanbrandao.compose.cleanarchitecture.navigationcomponents.model.CharacterModel
 import com.geanbrandao.compose.cleanarchitecture.navigationcomponents.model.EpisodeModel
-import com.geanbrandao.compose.cleanarchitecture.navigationcomponents.ui.characters.content.AllMarginDefault
-import com.geanbrandao.compose.cleanarchitecture.navigationcomponents.ui.characters.content.AllMarginHalf
+import com.geanbrandao.compose.cleanarchitecture.navigationcomponents.ui.screen_characters.content.AllMarginDefault
+import com.geanbrandao.compose.cleanarchitecture.navigationcomponents.ui.screen_characters.content.AllMarginHalf
 import com.geanbrandao.compose.cleanarchitecture.navigationcomponents.ui.components.common.TextLabel
 import com.geanbrandao.compose.cleanarchitecture.navigationcomponents.ui.components.common.TextName
 import com.skydoves.landscapist.glide.GlideImage
